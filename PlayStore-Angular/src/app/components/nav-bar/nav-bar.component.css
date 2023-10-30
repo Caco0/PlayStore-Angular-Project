@@ -1,0 +1,60 @@
+.nav__bar--superior {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 0.625rem 0.625rem;
+}
+.nav__bar--superior__left {
+  display: flex;
+}
+.nav__bar--superior__left > li > a {
+  color: black;
+  font-size: 0.625rem;
+  font-family: "PlayStation", sans-serif;
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
+.nav__bar--inferior {
+  background-color: #fff;
+  display: flex;
+  font-size: 0.625rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__bar--inferior {
+  width: 100vw;
+  position: fixed;
+  z-index: 999;
+}
+.nav__bar--button {
+  background-color: #0070cc;
+  border: none;
+  color: #fff;
+  font-size: 0.525rem;
+  font-weight: 700;
+  padding: 0.275rem 0.675rem;
+  border-radius: 1rem;
+  margin-right: 0.625rem;
+}
+input {
+  font-size: 0.525rem;
+  width: 5rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.175rem;
+  text-align: center;
+  background-color: #ffffff71;
+}
+.nav__bar--inferior a {
+  color: black;
+  text-decoration: none;
+  margin: 0.5rem 1rem;
+  font-family: "PlayStation", sans-serif;
+}
+.nav__bar--inferior__middle {
+  display: flex;
+}
+.nav__bar--inferior__middle > li > a {
+  margin-right: 1rem;
+}
