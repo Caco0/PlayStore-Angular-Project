@@ -125,13 +125,13 @@ table {
 }
 
 body {
-  background: rgb(107, 107, 107);
+  background: rgb(2, 0, 36);
   background: linear-gradient(
-    180deg,
-    rgba(107, 107, 107, 1) 1%,
-    rgb(236, 236, 236) 15%,
-    rgba(236, 236, 236) 95%,
-    rgba(107, 107, 107, 1) 100%
-  );
+      180deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(255, 255, 255, 0.891) 16%
+    )
+    no-repeat;
+
   height: 100vh;
 }

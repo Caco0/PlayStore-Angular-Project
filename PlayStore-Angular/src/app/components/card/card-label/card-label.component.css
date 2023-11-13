@@ -1,0 +1,16 @@
+.card--label__container {
+  position: absolute;
+  bottom: 90px;
+  right: 0;
+}
+
+.card--label__content {
+  align-items: center;
+  color: #ffff;
+  border-radius: 0.325rem;
+  background-color: #0d0d0db0;
+  display: flex;
+  justify-content: center;
+  margin-right: 0.325rem;
+  padding: 0.625rem;
+}

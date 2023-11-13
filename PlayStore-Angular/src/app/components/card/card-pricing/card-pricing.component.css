@@ -1,0 +1,25 @@
+@import url("https://fonts.cdnfonts.com/css/zrnic");
+.card--pricing__container {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  bottom: 0px;
+  color: white;
+  display: flex;
+  left: 0;
+  height: 65px;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  font-family: "Zrnic", sans-serif;
+}
+.card--pricing__value {
+  text-align: center;
+}
+.card--pricing__value__console p {
+  padding-bottom: 0.325rem;
+}
+.card--pricing__value__console span {
+  font-weight: bolder;
+  color: aqua;
+  margin-right: 0.325rem;
+}
