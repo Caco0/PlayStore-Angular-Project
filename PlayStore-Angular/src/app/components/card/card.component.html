@@ -2,13 +2,13 @@
   <a href="#">
     <img
       class="card__img"
-      src="../../../assets/icons/card-1.webp"
+      [src]="[gameImage]"
       alt="Imagem do game a ser vendido"
     />
   </a>
-  <app-card-label gameLabel="Exclusivo"></app-card-label>
+  <app-card-label gameLabel="{{ gameLabel }}"></app-card-label>
   <app-card-pricing
-    gameMedia="Media Digital PS5"
-    gamePrice="R$ 249,90"
+    gameMedia=" {{ gameMedia }} "
+    gamePrice=" {{ gamePrice }} "
   ></app-card-pricing>
 </div>
