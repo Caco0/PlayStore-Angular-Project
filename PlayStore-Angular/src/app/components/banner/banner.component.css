@@ -1,4 +1,9 @@
 .banner__promo img {
-  margin-top: 6.625rem;
+  margin-top: 6.525rem;
   width: 100vw;
+}
+.subTitle {
+  font-size: 1.5rem;
+  padding: 1.5rem 1rem;
+  margin-bottom: 1rem;
 }

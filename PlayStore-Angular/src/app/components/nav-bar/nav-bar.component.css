@@ -1,10 +1,16 @@
+.nav__bar {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+}
 .nav__bar--superior {
   background-color: #fff;
   display: flex;
   justify-content: space-between;
   max-width: 100vw;
-  padding: 1rem 1rem;
+  padding: 1rem 1.5rem;
 }
+
 .image__icon--superior img {
   width: 25px;
 }
@@ -16,6 +22,7 @@
   font-size: 1rem;
   font-family: "PlayStation", sans-serif;
   margin-right: 0.5rem 0;
+  padding-right: 0.625rem;
   text-decoration: none;
 }
 .nav__bar--button {
@@ -41,8 +48,6 @@
   font-size: 0.625rem;
   justify-content: space-between;
   width: 100vw;
-  position: fixed;
-  z-index: 999;
 }
 
 input {
@@ -53,6 +58,7 @@ input {
   padding: 0.175rem;
   text-align: center;
   background-color: #ffffff71;
+  margin: 1rem;
 }
 .nav__bar--inferior a {
   color: black;
