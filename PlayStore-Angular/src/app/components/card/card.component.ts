@@ -11,9 +11,9 @@ export class CardComponent implements OnInit {
   @Input()
   gameLabel: string = '';
   @Input()
-  gameMedia: string = 'Media digital PS5';
+  gameMedia: string = '';
   @Input()
-  gamePrice: string = 'R$ 249,99';
+  gamePrice: string = '';
   constructor() {}
 
   ngOnInit(): void {}
