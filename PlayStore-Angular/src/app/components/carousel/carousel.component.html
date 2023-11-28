@@ -1,10 +1,11 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner" role="listbox">
-    <img src="{{ getSlide() }}" alt="slide" />
-    <h2 class="carouselTitle"></h2>
+  <div class="carousel__conteiner" role="listbox">
+    <h2 class="carouselTitle">{{ carouselTitle }}</h2>
+    <img class="carouselImage" src="{{ getSlide() }}" alt="slide" />
   </div>
+  <div class="buttons__container">
+    <button class="buttons--slide" (click)="getPrev()">Prev</button>
 
-  <button (click)="getPrev()">Prev</button>
-
-  <button (click)="getNext()">Next</button>
+    <button class="buttons--slide" (click)="getNext()">Next</button>
+  </div>
 </div>

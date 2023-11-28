@@ -1,0 +1,28 @@
+.buttons__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.buttons--slide {
+  background-color: #0070cc;
+  border: solid 0.425rem #0070cc;
+  border-radius: 0.525rem;
+  color: aliceblue;
+}
+.carouselTitle {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.carousel__conteiner {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.carouselImage {
+  border-radius: 1rem;
+  transition: transform 0.6s;
+}
+.carouselImage:hover {
+  transform: scale(1.05);
+}

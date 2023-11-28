@@ -10,6 +10,8 @@ export class HomeComponent implements OnInit {
   bannerImage: string = '';
   @Input()
   bannerTitle: string = '';
+  @Input()
+  carouselTitle: string = '';
   constructor() {}
 
   ngOnInit(): void {}
