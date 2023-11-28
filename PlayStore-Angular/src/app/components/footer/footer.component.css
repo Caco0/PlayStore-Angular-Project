@@ -1,0 +1,77 @@
+.footer__container {
+  background-color: #0070cc;
+  display: flex;
+  min-height: 350px;
+  margin-top: 2rem;
+  width: 100vw;
+}
+.footer--left__box {
+  width: 50vw;
+}
+.footer--left {
+  padding: 2rem 1rem;
+  display: flex;
+  width: 50vw;
+}
+.about__container {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2rem;
+  text-align: center;
+}
+.about--developer__name {
+  font-size: 2.2rem;
+}
+.footer--image__content {
+  align-items: center;
+  border: solid 3px #e7e7e7a1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 110px;
+  margin-left: 1rem;
+  width: 110px;
+}
+.footer--image__link a {
+  padding: 1rem;
+  margin: 2rem;
+}
+.footer--image {
+  width: 100px;
+  border-radius: 50%;
+}
+.about--developer__career {
+  color: aliceblue;
+  font-size: 1.1rem;
+  margin-left: 2rem;
+}
+.developer--about {
+  margin-left: 2rem;
+  width: 50vw;
+}
+.developer--about p {
+  color: aliceblue;
+  font-size: 1.1rem;
+  text-align: justify;
+  max-width: 46vw;
+}
+
+.footer--right__box {
+  width: 50vw;
+}
+.footer--list__items {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.footer--link {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.footer--link a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 1rem;
+}
